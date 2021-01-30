@@ -1,0 +1,23 @@
+{
+  "name": "webpack_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunopereira4412/Webpack-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nunopereira4412/Webpack-practice/issues"
+  },
+  "homepage": "https://github.com/nunopereira4412/Webpack-practice#readme",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
