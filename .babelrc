@@ -1,0 +1,19 @@
+{
+    "presets": [
+        // preset-env specifies that next-gen js is compiled to old-gen js
+        [
+            "@babel/preset-env", 
+            {
+                "targets": {
+                    //for which browsers should compile, more on --> babel/preset-env -> browserslist config
+                    "browsers": [">1%", "last 2 versions"]
+               }
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        //controls for which sintazx babel errors out
+        "@babel/plugin-proposal-class-properties"
+    ]
+}

@@ -4,20 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build:prod": "webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nunopereira4412/Webpack-practice.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "ISC", 
+  "browserslist": ">1%, last 2 versions",
   "bugs": {
     "url": "https://github.com/nunopereira4412/Webpack-practice/issues"
   },
   "homepage": "https://github.com/nunopereira4412/Webpack-practice#readme",
   "devDependencies": {
     "webpack": "^4.46.0",
+    "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   }
 }
